@@ -1,7 +1,8 @@
 #  script to add layer/style information
 #  for every SLD file in our collection
 #
-restapi=http://localhost:8080/geoserver/rest
+# restapi=http://localhost:8080/geoserver/rest
+restapi=http://130.211.144.113/geoserver/rest
 login=admin:geoserver
 workspace=osm
 store=openstreetmap
