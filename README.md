@@ -17,12 +17,12 @@ sudo apt-get install osm2pgsql; sudo apt install osmctools; osmconvert northwest
 in Postgresql:
 crop_ocean.sql, create_tables.sql
 
-& Restart geoserver
-Загрузка SLD на geoserver скриптом SLD_create.sh:
+& Restart geoserver & enable geojson in Tile Layers->osm->Tile cashing
 
+Load SLD на geoserver скриптом SLD_create.sh:
 cd osm/sld-master; chmod +x SLD_create.sh; sh ./SLD_create.sh
 
-Сборка layergroup:
+make layergroup:
 cd osm/sld-master; curl -v -u admin:geoserver -XPOST -d@layergroup.xml -H "Content-type: text/xml" \ http://130.211.144.113/geoserver/rest/layergroups
   
 #Delete layergroup: curl -v -u admin:geoserver -XDELETE \
