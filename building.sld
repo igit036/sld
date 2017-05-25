@@ -66,6 +66,7 @@
           </sld:Geometry>
            <sld:Fill>
             <sld:CssParameter name='fill'>#ede8e8</sld:CssParameter>
+            <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
            </sld:Fill>
            <sld:Stroke>
             <sld:CssParameter name='stroke'>#BEB2B2</sld:CssParameter>
@@ -166,4 +167,3 @@
     </sld:UserStyle>
   </sld:NamedLayer>
 </sld:StyledLayerDescriptor>
-
