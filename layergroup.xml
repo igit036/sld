@@ -13,7 +13,6 @@
     <layer>aero-poly</layer>
     <layer>parking-area</layer>
     <layer>amenity-areas</layer>
-    <layer>building</layer>
     <layer>route-tunnels</layer>
     <layer>route-bridge-0</layer>
     <layer>route-bridge-1</layer>
@@ -23,6 +22,7 @@
     <layer>route-bridge-5</layer>
     <layer>route-line</layer>
     <layer>route-fill</layer>
+    <layer>building</layer>
     <layer>placenames-medium</layer>
     <layer>highway-label</layer>
   </layers>
