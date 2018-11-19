@@ -23,9 +23,9 @@ Load SLD на geoserver скриптом SLD_create.sh:
 cd osm/sld-master; chmod +x SLD_create.sh; sh ./SLD_create.sh
 
 make layergroup:
-cd osm/sld-master; curl -v -u admin:geoserver -XPOST -d@layergroup.xml -H "Content-type: text/xml" \ http://130.211.144.113/geoserver/rest/layergroups
+cd osm/sld-master; curl -v -u admin:geoserver -XPOST -d@layergroup.xml -H "Content-type: text/xml" \ http://IP/geoserver/rest/layergroups
   
 #Delete layergroup: curl -v -u admin:geoserver -XDELETE \
-  http://130.211.144.113/geoserver/rest/layergroups/osm
+  http://IP/geoserver/rest/layergroups/osm
   
   in QGIS - add from osm/scratch.shp (Ladoga Lake) to water, water-outline
