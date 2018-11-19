@@ -4,7 +4,7 @@ Pack of files (sld, sql, xml) for:
 2. upload SLD-style to geoserver & create layers - SLD_create.sh & all sld
 3. create group layer OSM in geoserver - layergroup.xml
 
-Download & unpack needed data:
+Download & unpack needed data (example):
 mkdir osm; cd osm
 wget -O northwestern-fed-district-latest.osm.pbf http://download.geofabrik.de/russia/northwestern-fed-district-latest.osm.pbf; wget -O water-polygons-split-3857.zip http://data.openstreetmapdata.com/water-polygons-split-3857.zip; wget -O master.zip https://github.com/igit036/sld/archive/master.zip; wget -O add_ladoga.zip https://github.com/igit036/files/raw/master/add_ladoga.zip; wget -O geoserver-2.11.0-vectortiles-plugin.zip http://sourceforge.net/projects/geoserver/files/GeoServer/2.11.0/extensions/geoserver-2.11.0-vectortiles-plugin.zip
 
