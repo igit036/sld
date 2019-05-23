@@ -6,7 +6,7 @@ Pack of files (sld, sql, xml) for:
 
 Download & unpack needed data (example):
 mkdir osm; cd osm
-wget -O northwestern-fed-district-latest.osm.pbf http://download.geofabrik.de/russia/northwestern-fed-district-latest.osm.pbf; wget -O water-polygons-split-3857.zip http://data.openstreetmapdata.com/water-polygons-split-3857.zip; wget -O master.zip https://github.com/igit036/sld/archive/master.zip; wget -O add_ladoga.zip https://github.com/igit036/files/raw/master/add_ladoga.zip; wget -O geoserver-2.11.0-vectortiles-plugin.zip http://sourceforge.net/projects/geoserver/files/GeoServer/2.11.0/extensions/geoserver-2.11.0-vectortiles-plugin.zip
+wget -O northwestern-fed-district-latest.osm.pbf http://download.geofabrik.de/russia/northwestern-fed-district-latest.osm.pbf; wget -O water-polygons-split-3857.zip http://data.openstreetmapdata.com/water-polygons-split-3857.zip; wget -O master.zip https://github.com/igit036/sld/archive/master.zip; wget -O add_ladoga.zip https://github.com/igit036/files/raw/master/add_ladoga.zip (for northwestern-fed-district); wget -O geoserver-2.11.0-vectortiles-plugin.zip http://sourceforge.net/projects/geoserver/files/GeoServer/2.11.0/extensions/geoserver-2.11.0-vectortiles-plugin.zip
 
 <-- source of osm data; all world ocean polygones splitted reprojected in SRID 3857; pack of files (sld, sql, xml); polygon of Ladoga Lake (need for Leningradskaya oblast Add in QGIS); NB! control version of geoserver -->
 
